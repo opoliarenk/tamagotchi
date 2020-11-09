@@ -1,0 +1,25 @@
+.anchor {
+    -fx-background-image:url('home.png');
+    -fx-background-size: 800px 524px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.button{
+    -fx-border-color: transparent, gray;
+    -fx-border-width: 2;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: transparent, gainsboro;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+}
+
+.button:pressed {
+    -fx-border-color: transparent, gray;
+    -fx-background-color: transparent;
+    -fx-background-radius: 50;
+    -fx-border-width: 2, 2;
+    -fx-border-radius: 50;
+    -fx-border-insets: 1 1 1 1, 0;
+}
